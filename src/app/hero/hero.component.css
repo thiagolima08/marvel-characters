@@ -1,5 +1,7 @@
-app-soundtrack{
+.fb-video{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #757575;
 }

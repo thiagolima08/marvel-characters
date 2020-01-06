@@ -1,0 +1,19 @@
+<div id="container">
+<mat-card *ngFor='let c of characters' class="example-card">
+    <mat-card-header style="display: flex;justify-content: center;">
+        <mat-card-title>
+            <p>
+                {{ c.name }}
+            </p>
+        </mat-card-title>
+    </mat-card-header>
+    <a href="{{ c.bio }}"><img mat-card-image src="{{ c.image }}"></a>
+    <mat-card-content>
+        <p>
+            {{ c.description }}
+        </p>
+    </mat-card-content>
+</mat-card>
+</div>
+
+
