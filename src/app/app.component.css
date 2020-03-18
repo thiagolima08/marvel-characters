@@ -3,3 +3,14 @@ app-soundtrack{
     justify-content: center;
     margin-top: 20px;
 }
+
+app-characters{
+  display: flex;
+  justify-content: center;
+}
+
+app-menu{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}

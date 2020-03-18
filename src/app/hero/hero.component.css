@@ -5,3 +5,8 @@
     margin-bottom: 20px;
     background-color: #757575;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
